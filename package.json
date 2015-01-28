@@ -1,34 +1,47 @@
 {
-  "name": "brunch-spa",
+  "name": "react-spa",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "A single page application seed using React, Browserify and Grunt.\"",
+  "main": "script/app/init.js",
+  "dependencies": {
+    "browserify": "^8.1.1",
+    "grunt-browserify": "^3.3.0",
+    "grunt": "^0.4.5",
+    "grunt-react": "^0.10.0",
+    "jit-grunt": "^0.9.0",
+    "react": "^0.12.2",
+    "react-router": "^0.11.6"
+  },
+  "devDependencies": {},
+	"dependencies": {
+		"browserify": "^8.0.3",
+		"grunt": "~0.4.5",
+		"grunt-browserify": "^3.2.1",
+		"grunt-concurrent": "^1.0.0",
+		"grunt-contrib-cssmin": "^0.11.0",
+		"grunt-contrib-less": "~0.11.0",
+		"grunt-contrib-uglify": "^0.7.0",
+		"grunt-contrib-watch": "~0.6.1",
+		"grunt-react": "^0.10.0",
+		"jit-grunt": "~0.7.0",
+		"moment": "^2.8.4",
+		"qwest": "^1.5.1",
+		"react": "^0.12.2",
+		"reactify": "^0.17.1",
+		"underscore": "^1.7.0",
+		"watchify": "^2.2.1"	
+	},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
-  "license": "ISC",
-  "dependencies": {
-    "bower": "^1.3.12",
-    "clean-css-brunch": "1.6.x",
-    "config": "^1.2.4",
-    "connect": "2.9.x",
-    "css-brunch": "1.7.x",
-    "http-proxy": "0.10.x",
-    "javascript-brunch": "1.7.x",
-    "jshint-brunch": "1.6.x",
-    "react-brunch": "^1.0.5",
-    "react-tags-brunch": "^1.7.1",
-    "stylus-brunch": "1.7.x",
-    "uglify-js-brunch": "1.7.x",
-    "underscore": "^1.6.0",
-    "pm2": "^0.11.1",
-    "brunch": "^1.7.18",
-    "react-test-utils": "0.0.1"
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/chrisharrington/react-spa.git"
   },
-  "devDependencies": {
-    "grunt": "^0.4.5",
-    "grunt-contrib-stylus": "^0.20.0",
-    "jasmine-react-helpers": "^0.2.0"
-  }
+  "author": "Chris Harrington",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/chrisharrington/react-spa/issues"
+  },
+  "homepage": "https://github.com/chrisharrington/react-spa"
 }
